@@ -154,13 +154,13 @@ def main():
         h1, h2, h3 {color: #1f3c88;}
         .banner {
             background: linear-gradient(90deg, #1f3c88, #2c5282);
-            color: blue;
+            color: white;
             padding: 1rem 2rem;
             border-radius: 8px;
             margin-bottom: 1rem;
         }
         .metric-card {
-            background: white; 
+            background: lightblue; 
             padding: 1rem; 
             border-radius: 12px; 
             box-shadow: 0 2px 6px rgba(0,0,0,0.1);
@@ -219,6 +219,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
