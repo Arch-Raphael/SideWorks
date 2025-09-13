@@ -160,7 +160,7 @@ def main():
             margin-bottom: 1rem;
         }
         .metric-card {
-            background: lightblue; 
+            background: #3186d6; 
             padding: 1rem; 
             border-radius: 12px; 
             box-shadow: 0 2px 6px rgba(0,0,0,0.1);
@@ -219,6 +219,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
