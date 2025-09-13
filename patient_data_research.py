@@ -154,7 +154,7 @@ def main():
         h1, h2, h3 {color: #1f3c88;}
         .banner {
             background: linear-gradient(90deg, #1f3c88, #2c5282);
-            color: white;
+            color: blue;
             padding: 1rem 2rem;
             border-radius: 8px;
             margin-bottom: 1rem;
@@ -219,6 +219,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
