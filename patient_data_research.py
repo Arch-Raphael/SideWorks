@@ -8,7 +8,7 @@ Researcher-themed UI with enhanced visuals and sequential numeric IDs.
 import re
 import pandas as pd
 import streamlit as st
-from rapidfuzz import fuzz, process
+#from rapidfuzz import fuzz, process
 from io import BytesIO
 from collections import defaultdict
 import numpy as np
@@ -219,3 +219,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
