@@ -170,7 +170,7 @@ def main():
     """, unsafe_allow_html=True)
 
     # Header banner
-    st.markdown("<p align="center"><div class='banner'><h1>🔬 Hospital Patient Data Processor</h1><p>Researcher Edition — Clean IDs, Smart Duplicates</p><p>~E.G</p></div></p>", unsafe_allow_html=True)
+    st.markdown("<div class='banner'><h1>🔬 Hospital Patient Data Processor</h1><p>Researcher Edition — Clean IDs, Smart Duplicates</p><p>~E.G</p></div>", unsafe_allow_html=True)
 
     uploaded_file = st.file_uploader("📂 Upload Excel file", type=["xlsx"])
     if uploaded_file:
@@ -219,6 +219,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
